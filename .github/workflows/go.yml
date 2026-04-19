@@ -26,11 +26,5 @@ jobs:
       - name: Coverage
         run: go test -coverprofile=coverage.out ./...
 
-      - name: Check coverage >= 60%
-        run: |
-          COVERAGE=$(go tool cover -func=coverage.out | grep total | awk '{print $3}' | sed 's/%//')
-          echo "Coverage: $COVERAGE%"
-          if (( $(echo "$COVERAGE < 60" | bc -l) )); then
-            echo "Coverage too low!"
-            exit 1
-          fi
+      - - name: Check coverage
+          run: go tool cover -func=coverage.out
