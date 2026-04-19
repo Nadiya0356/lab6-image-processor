@@ -26,5 +26,5 @@ jobs:
       - name: Coverage
         run: go test -coverprofile=coverage.out ./...
 
-      - - name: Check coverage
-          run: go tool cover -func=coverage.out
+      - name: Show coverage
+        run: go tool cover -func=coverage.out
