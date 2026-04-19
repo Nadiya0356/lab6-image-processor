@@ -1,0 +1,13 @@
+mode: set
+lab6-image-processor/internal/stats/counter.go:8.43,12.2 3 1
+lab6-image-processor/internal/processor/metadata.go:9.50,15.13 3 1
+lab6-image-processor/internal/processor/metadata.go:15.13,18.3 2 1
+lab6-image-processor/internal/processor/metadata.go:22.48,24.2 1 0
+lab6-image-processor/internal/processor/metadata.go:26.48,27.29 1 0
+lab6-image-processor/internal/processor/metadata.go:27.29,28.19 1 0
+lab6-image-processor/internal/processor/metadata.go:28.19,29.8 1 0
+lab6-image-processor/internal/processor/metadata.go:29.8,31.5 1 0
+lab6-image-processor/internal/processor/metadata.go:35.2,35.9 1 0
+lab6-image-processor/internal/processor/storage.go:14.55,19.2 3 0
+lab6-image-processor/internal/api/handler.go:7.60,10.2 2 1
+lab6-image-processor/cmd/service/main.go:10.13,20.2 5 0
